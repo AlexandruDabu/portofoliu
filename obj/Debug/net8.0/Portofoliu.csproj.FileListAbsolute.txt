@@ -28,3 +28,4 @@ C:\Users\alexa\OneDrive\Desktop\Portofoliu\Portofoliu\obj\Debug\net8.0\refint\Po
 C:\Users\alexa\OneDrive\Desktop\Portofoliu\Portofoliu\obj\Debug\net8.0\Portofoliu.pdb
 C:\Users\alexa\OneDrive\Desktop\Portofoliu\Portofoliu\obj\Debug\net8.0\Portofoliu.genruntimeconfig.cache
 C:\Users\alexa\OneDrive\Desktop\Portofoliu\Portofoliu\obj\Debug\net8.0\ref\Portofoliu.dll
+C:\Users\alexa\OneDrive\Desktop\Portofoliu\Portofoliu\obj\Debug\net8.0\Portofoliu.sourcelink.json
