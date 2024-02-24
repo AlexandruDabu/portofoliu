@@ -33,21 +33,26 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    public IActionResult SubmitForm(homeViewModel homeVM)
+    public IActionResult Index(homeViewModel homeVM)
     {
+        if(!ModelState.IsValid) 
+        {
+            TempData["Error"] = $"Failed to send message, try again!";
+            return View(homeVM);
+        }
         var mailMessage = new MailMessage();
         mailMessage.From = new MailAddress("alexandrufelix2020@gmail.com");
         mailMessage.To.Add("alexandrufelix2020@gmail.com");
         mailMessage.Subject = homeVM.subject;
         mailMessage.Body = $"Name: {homeVM.name}\nEmail: {homeVM.email}\nMessage: {homeVM.message}";
-        
         using(var smtpClient = new SmtpClient("smtp.elasticemail.com"))
         {
             smtpClient.Port=2525;
             smtpClient.Credentials = new NetworkCredential("alexandrufelix2020@gmail.com","B843B1DA4C6B2844D699B01ABCEAAD75572D");
             smtpClient.EnableSsl = true;
             smtpClient.Send(mailMessage);
+            TempData["Success"] = "Message sent!";
+            return RedirectToAction("Index");
         }
-        return RedirectToAction("Index");
     }
 }

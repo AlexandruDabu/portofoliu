@@ -1,6 +1,18 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@if(TempData["Success"] !=null)
+{
+  <div id="message-success" class="rounded alert alert-success position-fixed start-50 translate-middle-x" style="top: 1%;">
+    <span>@TempData["Success"]</span>
+  </div>
+}
+@if(TempData["Error"] !=null)
+{
+  <div id="message-success" class="alert alert-danger position-fixed start-50 translate-middle-x" style="top: 1%;">
+    <span>@TempData["Error"]</span>
+  </div>
+}
 <div id="bg-image" class="background-blur container-fluid vh-100"></div>
 <div id="firstContent">
     <header>
@@ -144,27 +156,34 @@
         <div class="text-128 col-md-12 px-4 imageDiv">
             <h1 class="text-center text-secondary">Get in Touch</h1>
             <h4 class="text-center mt-3">Feel free to contact me anytime!</h4>
-            <form asp-action="SubmitForm" class="textDiv d-flex justify-content-center align-items-center">
+@using Portofoliu.ViewModels
+@model homeViewModel
+
+    <form asp-action="Index" class="textDiv d-flex justify-content-center align-items-center">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
   <fieldset style="width:80%;">
     <div class="form-group">
-      <label for="name" class="form-label mt-2">Name</label>
-      <input name="name" type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter Name">
+      <label asp-for="name" class="form-label mt-2">Name</label>
+      <input asp-for="name" type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter Name">
+      <span asp-validation-for="name" class="text-danger"></span>
     </div>
     <div class="form-group">
-      <label for="email" class="form-label mt-2">Email address</label>
-      <input name="email" type="email" class="form-control" id="email" placeholder="Enter Email" autocomplete="off">
-      <small id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</small>
+      <label asp-for="email" class="form-label mt-2">Email address</label>
+      <input asp-for="email" require type="email" class="form-control" id="email" placeholder="Enter Email" autocomplete="off">
+      <span asp-validation-for="email" class="text-danger"></span>
     </div>
     <div class="form-group">
-      <label for="Subject" class="form-label mt-2">Subject</label>
-      <select name="subject" class="form-select" id="Subject">
+      <label asp-for="subject" class="form-label mt-2">Subject</label>
+      <select asp-for="subject" class="form-select" id="Subject">
         <option>Hiring</option>
         <option>Private Projects</option>
         <option>Infos</option>
       </select>
+      <span asp-validation-for="subject" class="text-danger"></span>
     </div><div class="form-group">
-      <label for="Message" class="form-label mt-2">Message</label>
-      <textarea name="message" class="form-control" id="exampleTextarea" placeholder="Details" rows="3"></textarea>
+      <label asp-for="message" class="form-label mt-2">Message</label>
+      <textarea asp-for="message" class="form-control" id="exampleTextarea" placeholder="Details" rows="3"></textarea>
+      <span asp-validation-for="message" class="text-danger"></span>
     </div>
     <div class="justify-content-center d-flex align-items-center">
     <button type="submit" class="btn btnAbout my-5">Submit</button>

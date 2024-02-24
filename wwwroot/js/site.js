@@ -17,6 +17,18 @@
         link[0].click(); 
     });
 });
+document.addEventListener('DOMContentLoaded', function () {
+    var successMessage = document.getElementById('message-success');
+    if (successMessage) {
+        setTimeout(function () {
+            successMessage.classList.add('hidden');
+            successMessage.addEventListener('transitionend', function () {
+                successMessage.remove();
+            }, { once: true });
+        }, 1500);
+    }
+});
+
 
 function isElementInViewport(el) {
     var rect = el.getBoundingClientRect();
