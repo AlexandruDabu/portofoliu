@@ -1,0 +1,177 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div id="bg-image" class="background-blur container-fluid vh-100"></div>
+<div id="firstContent">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white box-shadow mb-3">
+            <div class="container-fluid">
+                <div class="text-center col-md-6">
+                <a class="text-white navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Alexandru Felix</a>
+                </div>
+                    <div class="col-md-6 text-center">
+                        <div class="d-inline-block"> <!-- Added this div -->
+                            <a class="text-white nav-link" href="#about">About Me</a>
+                        </div>
+                        <div class="d-inline-block"> <!-- Added this div -->
+                            <a class="nav-link text-white" href="#skills">My Skills</a>
+                        </div>
+                        <div class="d-inline-block"> <!-- Added this div -->
+                            <a class="nav-link text-white" href="#projects">Projects</a>
+                        </div>
+                        <div class="d-inline-block"> <!-- Added this div -->
+                            <a class="nav-link text-white" href="#contact" >Contact</a>
+                        </div>
+                    </div>
+            </div>
+        </nav>
+    </header>
+</div>
+<div id="centerText" class="text-white">
+        <h1><b>Alexandru <span style="color: #00bc8c;">Dabuleanu</span></b></h1>
+        <a href="https://github.com/AlexandruDabu" target="_blank" id="icons" <i class="bi bi-github"style="font-size: 3.5rem;"></i></a>
+        <h4>Studying Computer Science</h4>
+        <h4>C#, ASP.NET, SQL, HTML, JavaScript, CSS</h4>
+        <button id="downloadResume" class="btn btnHomePage">My Resume</button>
+        <a href="#projects"><button class="btn btnHomePage">My Projects</button></a>
+</div>
+<div class="container">
+    <section class="p-1" id="about">
+    <div class="row" id="newSection">
+        <div class="col-md-6 imageDiv">
+                <img src="/images/aboutMe.jpg" style="width:100%; height: 100%;" alt="">
+        </div>
+        <div class="text-128 col-md-6 px-4 textDiv">
+                <h5 class="text-light"><b>A LITTLE INTRODUCTION</b></h5>
+                <h1 class="display-5 text-secondary"><b>Hi, I'm Alex!</b></h1>
+                <h4 class="mt-3">I'm currently a student looking for an internship or job as a WebDeveloper</h4>
+                <p class="text-dark ">I'm studying Informatics at University of Titu Maiorescu from Bucharest, currently being in my last year!
+                    <br>During this period I was part of 2 projects in Marketing: 
+                    <br>JA Romania, Gen-E and HP Life.
+                    <br>After JA Romania competition, I also got 2 awards for:
+                    <br>- Best financial plan offered by <a class="text-decoration-none" href="https://kpmg.com/ro/en/home.html">KPMG</a>
+                    <br>- 3rd place in the National Final of the JA Europe competition Gen-E.
+                    <br>Beside University I was also taking multiple private courses on platforms such as <a class="text-decoration-none" href="https://www.udemy.com/">Udemy</a> and <a class="text-decoration-none" href="https://www.freecodecamp.org/">freecodecamp</a>. 
+                    Courses about JavaScript,React,C#,ASP.NET and many more.
+                    <br>
+                    <br>
+                    😊 When I'm not coding I like taking a break from computer and either driving around the city either going to the Gym!🏋️
+                    <br>
+                    <br>
+                    📒 Building web applications is something I enjoy doing the most. I always enjoy taking on programming challanges and 
+                    currently looking for work building web applications. I enjoy what I do and looking forward to evolve as much as possible. 
+                    If you like what you see please feel free to call me or 
+                    contact me below.</p>
+                <hr>
+                <div class="d-inline-block" style="margin-right: 65px">
+                    <b>Phone Number:</b><a href="tel:+40756361705" style="text-decoration: none;"> +40756361705</a>
+                </div>
+                <div class="d-inline-block">
+                    <b>Email:</b><a href="mailto:alexandrufelix2020@gmail.com" style="text-decoration: none;"> alexandrufelix2020@gmail.com</a>
+                </div>
+
+        </div>
+    </div>
+    </section>
+    <section id="skills">
+    <div class="row" id="newSection">
+                <div class="col-md-6 imageColumn m-4" style="width: 190px;">
+                    <div class="col-md-12 imageDiv1">
+                        <img class="skillsSvg1" src="/images/Csharp.svg" alt="C#">
+                        <img class="skillsSvg1" src="/images/js.svg" alt="JS">
+                        <img class="skillsSvg1" src="/images/html.png" alt="HTML">
+                        <img class="skillsSvg1" src="/images/css.png" alt="CSS">
+                    </div>
+                </div>
+                <div class="col-md-6 m-4" style="width: 160px;">
+                    <div class="col-md-12 imageDiv">
+                        <img class="skillsSvg" src="/images/dotnet.svg" alt=".NET">
+                        <img class="skillsSvg" src="/images/react.svg" alt="React">
+                        <img class="skillsSvg" style="width:85%; margin-top: 15px" src="/images/bootstrap.svg" alt="Bootstrap">
+                        <img class="skillsSvg" style="width:75%; margin-top: 13px;" src="/images/sql.svg" alt="SQL">
+                    </div>
+                </div>
+        <div class="text-128 col-md-6 p-5 textDiv" style="margin-left: 210px; margin-top:100px;">
+            <h5 class="text-light"><b>ALWAYS LEARNING NEW THINGS!</b></h5>
+            <h1 class="display-5 text-secondary"><b>My Skills!</b></h1>
+            <h4 class="mt-3">My main skills includes: <a class="text-decoration-none" href="#projects">ASP.NET MVC</a>/<a class="text-decoration-none" href="#projects">C#</a>/<a class="text-decoration-none" href="#projects">OOP</a>/</h4>
+            <h4> <a class="text-decoration-none" href="#projects">Bootstrap</a>/<a class="text-decoration-none" href="#projects">JavaScript</a></h4>
+            <p class="mt-3 text-dark">But I also have basic knowledge with Python/Java/React/SQL/SASS/Postman/Git/Oracle/TypeScript and looking forward always eager to learn the newest and best techonlogies</p>
+        </div>
+    </div>
+    </section>
+    <section  id="projects">
+    <div class="row" id="newSection">
+        <div class="col-md-6 imageDiv tiles">
+            <a class ="tile" href="">
+                <img src="/images/running.jpg" style="width:100%; height: 100%;" alt="">
+                <div class="details">
+                    <span class="title">RunToday</span>
+                    <span class="info">Meet new peolpe with same interest as you right now!</span>
+                </div>
+            </a>
+        </div>
+        <div class="text-128 col-md-6 mt-4 px-4 textDiv">
+            <h5 class="text-light"><b>SHORT PREVIEW OF MY PROJECTS</b></h5>
+            <h1 class="display-5 text-secondary">RunToday project!</h1>
+            <h4 class="mt-3">Short meeting WebApp</h4>
+            <p class="mt-3 text-dark">Welcome to <a href="#"> RunToday</a>, your go-to platform for all things running! Whether you're a seasoned marathoner or just starting your fitness journey, our platform connects you with a vibrant community of runners and running events. With easy registration and login features, users gain access to a comprehensive directory of running events and clubs in their area, helping them discover new routes, connect with fellow enthusiasts, and stay motivated. Additionally, users can create and promote their own running events or clubs, fostering a sense of community and empowering individuals to share their passion for running with others. 
+                Join us at RunToday and take the first step towards reaching your fitness goals while forging lasting connections in the running community</p>
+        </div>
+    </div>
+    </section>
+    <section>
+    <div class="row" id="newSection">
+        <div class="col-md-6 imageDiv tiles">
+            <a href="#" class="tile">
+                <img src="/images/meeting.jpg" style="width:100%; height: 100%;" alt="">
+                <div class="details">
+                    <span class="title">EnjoyNow</span>
+                    <span class="info">Meet new peolpe with same interest as you right now!</span>
+                </div>
+            </a>
+        </div>
+        <div class="text-128 col-md-6 px-4 textDiv" style="margin-top:100px;">
+            <h5 class="text-light"><b>COMING SOON</b></h5>
+            <h1 class="Display-5 text-secondary">EnjoyNow!</h1>
+            <h4 class="mt-3">Short SocialMedia WebApp</h4>
+            <p class="mt-3 text-dark">Platform for event enthusiasts! Discover, share, and engage with a diverse range of events, from local meetups to global festivals. Post your events, react to others', comment, and participate in a vibrant community. Whether you're seeking a concert, workshop, or conference, <a class="text-decoration-none" href="">EnjoyNow</a> has you covered. Join the excitement and connect with like-minded individuals today!</p>
+        </div>
+    </div>
+    </section>
+    <section id="contact" style="margin-bottom: 250px;">
+    <div class="row" id="newSection" style="margin-bottom: 200px;">
+        <div class="text-128 col-md-12 px-4 imageDiv">
+            <h1 class="text-center text-secondary">Get in Touch</h1>
+            <h4 class="text-center mt-3">Feel free to contact me anytime!</h4>
+            <form asp-action="SubmitForm" class="textDiv d-flex justify-content-center align-items-center">
+  <fieldset style="width:80%;">
+    <div class="form-group">
+      <label for="name" class="form-label mt-2">Name</label>
+      <input name="name" type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter Name">
+    </div>
+    <div class="form-group">
+      <label for="email" class="form-label mt-2">Email address</label>
+      <input name="email" type="email" class="form-control" id="email" placeholder="Enter Email" autocomplete="off">
+      <small id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="Subject" class="form-label mt-2">Subject</label>
+      <select name="subject" class="form-select" id="Subject">
+        <option>Hiring</option>
+        <option>Private Projects</option>
+        <option>Infos</option>
+      </select>
+    </div><div class="form-group">
+      <label for="Message" class="form-label mt-2">Message</label>
+      <textarea name="message" class="form-control" id="exampleTextarea" placeholder="Details" rows="3"></textarea>
+    </div>
+    <div class="justify-content-center d-flex align-items-center">
+    <button type="submit" class="btn btnAbout my-5">Submit</button>
+    </div>
+  </fieldset>
+</form>
+        </div>
+    </div>
+    </section>
+</div>
