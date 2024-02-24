@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iscmwZsOAOLPST5j60avfVSHmXWR+gFCAdSmsXGN9z0=",
+  "Hash": "s+4QykfPpsI06+HIfRpad+v/24loTICqG32N1Ka6xn8=",
   "Source": "Portofoliu",
   "BasePath": "_content/Portofoliu",
   "Mode": "Default",
@@ -300,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\react.svg"
+    },
+    {
+      "Identity": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\images\\Resume.pdf",
+      "SourceId": "Portofoliu",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\",
+      "BasePath": "_content/Portofoliu",
+      "RelativePath": "images/Resume.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Resume.pdf"
     },
     {
       "Identity": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\images\\running.jpg",

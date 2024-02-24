@@ -1,4 +1,24 @@
-﻿function isElementInViewport(el) {
+﻿$(document).ready(function() {
+    $('a[href^="#"]').on('click', function(event) {
+      var target = $(this.getAttribute('href'));
+      if (target.length) {
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 0);
+      }
+    });
+  });
+  $(document).ready(function() {
+    $("#downloadResume").click(function() {
+        var link = $("<a>");
+        link.attr("download", "Resume.pdf"); 
+        link.attr("href", "/images/resume.pdf"); 
+        link[0].click(); 
+    });
+});
+
+function isElementInViewport(el) {
     var rect = el.getBoundingClientRect();
     return (
         rect.top >= 0 &&

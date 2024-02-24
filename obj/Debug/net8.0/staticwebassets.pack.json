@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\Csharp.svg"
     },
     {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\images\\Resume.pdf",
+      "PackagePath": "staticwebassets\\images\\Resume.pdf"
+    },
+    {
       "Id": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\images\\aboutMe.jpg",
       "PackagePath": "staticwebassets\\images\\aboutMe.jpg"
     },
