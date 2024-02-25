@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
       "Id": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\images\\Background.jpg",
       "PackagePath": "staticwebassets\\images\\Background.jpg"
     },
@@ -43,6 +39,10 @@
     {
       "Id": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\images\\dotnet.svg",
       "PackagePath": "staticwebassets\\images\\dotnet.svg"
+    },
+    {
+      "Id": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
     },
     {
       "Id": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\images\\html.png",

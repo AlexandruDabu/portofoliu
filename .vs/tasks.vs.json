@@ -5,6 +5,11 @@
       "taskLabel": "task-Portofoliu",
       "appliesTo": "/",
       "type": "launch"
+    },
+    {
+      "taskLabel": "task-Portofoliu",
+      "appliesTo": "/",
+      "type": "launch"
     }
   ]
 }

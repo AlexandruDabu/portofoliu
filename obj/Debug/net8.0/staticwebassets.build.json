@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s+4QykfPpsI06+HIfRpad+v/24loTICqG32N1Ka6xn8=",
+  "Hash": "uNuFeCIKlFH1amm6IoBEB4sSpRzOdsJDIn5s2kV01fw=",
   "Source": "Portofoliu",
   "BasePath": "_content/Portofoliu",
   "Mode": "Default",
@@ -72,25 +72,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\favicon.ico",
-      "SourceId": "Portofoliu",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\",
-      "BasePath": "_content/Portofoliu",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\images\\aboutMe.jpg",
@@ -224,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\dotnet.svg"
+    },
+    {
+      "Identity": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\images\\favicon.ico",
+      "SourceId": "Portofoliu",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\",
+      "BasePath": "_content/Portofoliu",
+      "RelativePath": "images/favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\wwwroot\\images\\html.png",
