@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\portofoliu\\Portofoliu.csproj": {}
+    "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\Portofoliu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\portofoliu\\Portofoliu.csproj": {
+    "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\Portofoliu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\portofoliu\\Portofoliu.csproj",
+        "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\Portofoliu.csproj",
         "projectName": "Portofoliu",
-        "projectPath": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\portofoliu\\Portofoliu.csproj",
+        "projectPath": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\Portofoliu.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\portofoliu\\obj\\",
+        "outputPath": "C:\\Users\\alexa\\OneDrive\\Desktop\\Portofoliu\\Portofoliu\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
