@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Portofoliu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8bf270700f2cbc03a4781923e43e15c19c3afae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42237e2f15d7c0404ca9e7223bfc65f5577231f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Portofoliu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Portofoliu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
